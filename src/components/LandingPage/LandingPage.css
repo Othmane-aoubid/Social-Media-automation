@@ -1,0 +1,56 @@
+.landing-page {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C76ED7;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.features, .register, .login {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #C76ED7;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .header nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
